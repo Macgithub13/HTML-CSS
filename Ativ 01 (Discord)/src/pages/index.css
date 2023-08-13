@@ -1,0 +1,235 @@
+
+.container-section1 {
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    position:relative;
+
+    padding-top:30px;
+
+    width:100vw;
+    height:750px;
+
+    background-color:#404eed;
+    background-image: url('../assets/images/Discord1.svg');
+    background-size:cover;
+    background-position: 2600px 0px;
+
+    color:#fff;
+
+}
+
+a {
+
+    cursor:pointer;
+}
+
+
+#tenis {
+
+    position:absolute;
+
+    bottom:0;
+    left:-170;
+}
+
+#suco {
+
+    position:absolute;
+    
+    bottom:0;
+    right:-100;
+    overflow: hidden;
+}
+
+.cabecalho {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+    width:80vw;
+}
+
+.a2{
+
+    font-family: 'Discord6';
+
+    height:45px;
+    width:140px;
+
+    text-align: center;
+    
+    padding-top:13px;
+
+    color: #23272a;
+    background-color:#fff;
+
+    border-radius:30px;
+
+    transition:0.2s;
+}
+
+.a2:hover{
+
+    color:#404eed;
+}
+
+.subcontainercabecalho {
+
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+
+.subcontainercabecalho >a{
+
+    margin: 0px 20px;
+
+    font: 20px 'Discord4';
+}
+
+.subcontainercabecalho >a:hover{
+
+    text-decoration: underline;
+}
+
+.meiopagina {
+
+    display:flex;
+    flex-direction:column;
+
+    margin-top:150px;
+}
+
+.meiopagina >h1{
+
+    align-self:center;
+
+    width:800px;
+
+    text-align:center;
+    line-height:80px;
+
+    font-family: 'Discord5';
+    font-size:80px;
+}
+
+.meiopagina >p {
+
+    text-align:center;
+
+    margin-top:50px;
+
+    width:1000px;
+
+    font-family: 'Discord6';
+    font-size:25px;
+}
+
+.botoes {
+
+    display:flex;
+    flex-direction: row;
+
+    margin-top:30px;
+}
+
+.botoes >a{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:20px;
+    padding:20px 10px;
+
+    height:70px;
+    width:330px;
+
+    font-family:'Discord4';
+    font-size:23px;
+
+    text-align: center;
+
+    background-color: #fff;
+    color:#23272a;
+
+    border-radius:40px;
+
+    transition:0.2s;
+}
+
+.botoes >a:hover {
+
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+
+    color: #404eed;
+}
+
+#botaopreto {
+
+    background-color:#23272a;
+    color:#fff;
+    width:400px;
+}
+
+#botaopreto:hover{
+
+    background-color:hsl(223,calc(var(--saturation-factor, 1)*6.7%),20.6%);
+}
+
+.container-section2 {
+
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    
+    padding-right:300px;
+
+    height:750px;
+}
+
+.container-section2 img{
+
+    height:700px;
+    width:700px;
+
+    margin-right:150px;
+}
+
+.sub-section2 {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.sub-section2 h2{
+
+    width:340px;
+
+    font-size:45px;
+    font-family:'Discord2';
+}
+
+.sub-section2 p{
+
+    margin-top:24px;
+
+    font-size:20px;
+    font-family:'Discord6';
+
+    color:#23272a;
+
+    width:360px;
+}
+
+
+
+
+

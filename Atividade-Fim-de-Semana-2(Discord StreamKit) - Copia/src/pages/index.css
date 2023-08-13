@@ -1,0 +1,585 @@
+.secao-01{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    padding:40px;
+
+    width:100vw;
+    height:40vh;
+
+    background-color:#5865f2;
+}
+
+.secao-01 *{
+
+    color:#fff;
+}
+
+.menu {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+    width:1200px;
+}
+
+.menu a{
+
+    cursor: pointer;
+    
+    text-decoration: none;
+}
+
+#Open{
+
+    padding-top:6px;
+
+    font-family:Discordfont2;
+    font-size:16px;
+
+    width:130px;
+    height:35px;
+
+    background-color:#ffffff;
+
+    border-radius:150px;
+
+    text-align:center;
+    color:#000000;
+
+    transition:0.3s;
+}
+
+#Open:hover{
+
+    color:#5865f2;
+
+    cursor:pointer;
+
+    box-shadow:0px 08px 15px rgb(0 0 0 / 20%);
+}
+
+.sub-header {
+
+    display:flex;
+    flex: row;
+}
+
+.sub-header a{
+
+    margin: 0 30px;
+
+    font-family:Discordfont3;
+    font-size:16px;
+
+}
+
+.sub-header a:hover{
+
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.sub-container {
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+
+    margin-top:80px;
+
+    height:1000px;
+    width:1200px;
+}
+
+.sub-container h1{
+
+    font-family:Discordfont1;
+    font-size: 60px;
+}
+
+.sub-container p{
+
+    font-family:Discordfont2;
+    font-size:20px;
+
+    margin-top:20px;
+}
+
+/* Término da seção 1 */
+
+.secao-02 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top:80px;
+
+    width:100vw;
+    height:50vh;
+
+    padding:40px;
+}
+
+.sub-c1-meio {
+
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: flex-start;
+
+    width:1200px;
+    height:1000px;
+}
+
+.sub-c1-meio h1{
+
+    font-size:30px;
+    font-family: Discordfont4;
+}
+
+.sub-c1-meio p{
+
+    font-size:20px;
+    margin-top:40px;
+
+    font-family: Discordfont2;
+}
+.sub-c2-meio{
+
+    display: flex;
+    flex-direction: row;
+
+    width:1200px;
+    height:1000px;
+}
+
+.sub-c2-meio >div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 50px 20px;
+}
+
+.card-subc img{
+
+    width:200px;
+    height:160px;
+}
+
+.card-subc h5{
+
+    font-size:25px;
+    font-family: discordfont5;
+
+    text-align: center;
+    color:#5865f2;
+}
+
+.card-subc p{
+
+    margin-top:20px;
+
+    width:360px;
+
+    font-family:Discordfont2;
+    font-size:20px;
+
+    text-align: center;
+}
+
+.card-subc a{
+
+    color:#00b0f4;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.card-subc a:hover{
+
+    text-decoration: underline;
+}
+
+/* Término da seção 02 */
+
+.secao-03 {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top:150px;
+    padding-top:100px;
+
+    background-color: #f6f6f6;
+
+    width:100vw;
+    height:340vh;
+}
+
+.Card-s03{
+
+    display:flex;
+    flex-direction:column;
+
+    align-items: center;
+}
+
+.Card-s03 >h1{
+
+    font-family: Discordfont1;
+    font-size:40px;
+
+    text-align: center;
+
+}
+
+.Card-s03 >p{
+
+    font-family: Discordfont2;
+
+    margin-top:20px;
+
+    font-size:20px;
+    text-align: center;
+
+    width:1287px;
+}
+
+.grande-subc {
+
+    display: flex;
+    flex-direction: column;
+
+    width:1200px;
+
+    margin-top:50px;
+}
+
+.Linha{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Linha >div{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin:10px;
+    padding:100px;
+
+    border-radius:20px;
+
+    width:50vw;
+    height:700px;
+
+    background-color: #fff;
+}
+
+.bloco-linha >h4{
+
+    margin-top:10px;
+    margin-bottom:20px;
+
+    font-family: Discordfont5;
+    font-size: 30px;
+}
+
+.bloco-linha>img{
+
+    width:70px;
+    height:80px;
+}
+
+.bloco-linha p{
+
+    margin-bottom:20px;
+
+    font-family: Discordfont2;
+    
+    text-align: center;
+
+    line-height: 25px;
+}
+
+.bloco-linha ul{
+
+    list-style: none;
+
+    width:400px;
+
+    font-family: Discordfont2;
+    font-size:15px;
+}
+
+.bloco-linha li{
+
+    margin-bottom:20px;
+}
+
+.bloco-linha svg{
+
+    margin-right:8px;
+
+    color: #0cf68d;
+}
+
+.bloco-linha >a{
+
+    background-color: #5865f2;
+
+    width:170px;
+
+    padding:10px;
+    margin-bottom:20px;
+
+    font-family: Discordfont3;
+    font-size: 15px;
+
+    border-radius:20px;
+
+    color:#ffffff;
+    text-align: center;
+
+    cursor:pointer;
+    transition: 0.2s;
+}
+
+.bloco-linha>a:hover{
+
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*86.1%),71.8%);
+
+    box-shadow:0px 08px 15px rgb(0 0 0 / 20%);
+
+}
+
+.mini-buttons a{
+
+    font-family: Discordfont3;
+    font-size:15px;
+
+    color:#00b0f4;
+
+    margin:10px;
+
+    cursor:pointer;
+}
+
+.mini-buttons a:hover{
+
+    text-decoration: underline;
+}
+
+.linha{
+
+    display:flex;
+    flex-direction:row;
+}
+
+.linha >div{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin:10px;
+    padding:100px;
+
+    border-radius:20px;
+
+    width:32vw;
+    height:700px;
+
+    background-color: #fff;
+}
+
+/* Término da seção 03 */
+
+
+.rodape {
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    height:60vh;
+    padding-top:80px;
+
+    background-color:#23272a;
+
+    color:#fff;
+}
+
+.Subrodape-01{
+
+    display:flex;
+    flex-direction: row;
+}
+
+.bloco-subrodape01{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.bloco-subrodape01 >h4{
+
+    margin-bottom:10px;
+
+    width:400px;
+
+    font-family: Discordfont1;
+    font-size:35px;
+
+
+    color:#5865f2;
+}
+
+.lingua {
+
+    display:flex;
+    flex-direction: row;
+
+    margin-top:10px;
+}
+
+.lingua >img{
+
+    width:25px;
+    height:17px;
+
+    margin-right:10px;
+}
+
+.lingua p{
+
+    font-family:Discordfont2;
+}
+
+.redes {
+
+    display:flex;
+    flex-direction: row;
+
+    margin-top:20px;
+}
+
+.redes a{
+
+    margin-right:25px;
+
+    cursor: pointer;
+}
+
+.Subrodape-02{
+
+    display:flex;
+    flex-direction:Column;
+}
+
+.bloco-subrodape02{
+
+    display:flex;
+    flex-direction: row;
+}
+
+.coluna-bloco{
+
+    display:flex;
+    flex-direction: column;
+
+    margin: 0px 40px;
+}
+
+.coluna-bloco a{
+
+    font-family:Discordfont2;
+
+    margin-bottom:10px;
+
+    cursor:pointer;
+}
+
+.coluna-bloco a:hover{
+
+    text-decoration: underline;
+}
+
+.titulo {
+
+    font-family:Discordfont2;
+    font-size:17px;
+
+    margin-bottom:10px;
+
+    color:#5865f2;
+}
+
+#linha-rodape {
+
+    width:1190px;
+    height:1px;
+
+    margin-bottom:30px;
+    margin-top:30px;
+
+    background-color:#5865f2;
+}
+
+.botoes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#discord{
+
+    cursor:pointer;
+}
+
+#abrir-discord{
+
+    
+    background-color: #5865f2;
+
+    width:130px;
+
+    padding:10px;
+    margin-bottom:20px;
+
+    font-family: Discordfont3;
+    font-size: 15px;
+
+    border-radius:20px;
+
+    color:#ffffff;
+    text-align: center;
+
+    cursor:pointer;
+    transition: 0.2s;
+}
+
+#abrir-discord:hover{
+
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*86.1%),71.8%);
+
+    box-shadow:0px 08px 15px rgb(0 0 0 / 20%);
+}
+
+
+

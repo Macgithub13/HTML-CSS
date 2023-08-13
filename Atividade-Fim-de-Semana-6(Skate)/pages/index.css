@@ -1,0 +1,816 @@
+#pagina {
+
+    overflow-x:hidden;
+}
+
+.cabecalho{
+
+    flex-direction: column;
+}
+
+.contatos-header{
+
+    height:4vh;
+
+    padding:10px 20px;
+}
+
+.contatos-header svg{
+
+    width:13px;
+    height:13px;
+
+    margin:0px 5px;
+}
+
+.informacoes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height:10vh;
+
+    padding:10px 20px;
+    margin-bottom:20px;
+}
+
+.informacoes a>img{
+
+    width:200px;
+    height:auto;
+
+}
+
+.pesquisa{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:10px;
+
+    height:4vh;
+    width:30vw;
+    max-width: 41%;
+
+    border:solid #000000 1px;
+    border-radius: 10px;
+    margin-right:20px;
+}
+
+.pesquisa>input{
+
+    font-size:14px;
+    font-family:font1;
+    font-weight: 500;
+    color:#000000;
+
+    width:100%;
+
+    border:none;
+}
+
+.pesquisa>input::placeholder{
+
+    color:#000;
+}
+
+.pesquisa>button>svg{
+
+    width:25px;
+    height:auto;
+}
+
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width:50vw;
+    max-width:33%;
+
+    gap:0px 20px;
+}
+
+.menu button,a{
+
+    font-size:12px;
+}
+
+.menu>button{
+
+    cursor:text;
+}
+
+.menu>button>svg,.menu>a>svg{
+
+    width:20px;
+    height:20px;
+}
+
+.menu-categorias{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width:100vw;
+
+    border-top:solid 1px rgba(0,0,0,0.2);
+    border-bottom:solid 1px rgba(0,0,0,0.2);
+
+    padding:10px 20px;
+}
+
+.menu-categorias>a{
+
+    margin:10px;
+
+    font-size:14px;
+    letter-spacing: 1px;
+}
+
+.menu-categorias>a>svg{
+
+    width:16px;
+    height:auto;
+}
+
+/* Término do cabeçalho */
+
+.conteudo-principal{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top:20px;
+}
+
+.container-inicio{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:70vw;
+    height:10vh;
+}
+
+.acessorios-rodas{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.acessorios-rodas>a{
+
+    font-family:font1;
+    font-size:14px;
+    font-weight: 400;
+    
+    color:#000;
+}
+
+.acessorios-rodas>a:hover{
+
+    color: rgba(0,0,0,0.5);
+    transition:0.4s;
+}
+
+.acessorios-rodas>p{
+
+    font-family: font1;
+    font-size:14px;
+    font-weight:600;
+}
+
+.titulo-roda{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom:40px;
+}
+
+.titulo-roda>h1{
+
+    font-size:35px;
+    font-family: font2;
+}
+
+.titulo-roda>p{
+
+    font-family:font1;
+    font-size:14px;
+
+    text-align: center;
+}
+
+.selecao{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-width:30vw;
+    min-width:20vw;
+    width:30vw;
+    height:7vh;
+
+    padding:10px;
+
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius:10px;
+}
+
+.selecao>select{
+
+    width:100%;
+    height:100%;
+    
+    font-size:14px;
+    font-weight: 700;
+
+    border:none;
+    appearance: none;
+}
+
+.selecao >svg{
+
+    width:18px;
+}
+
+.produtos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:100vw;
+}
+
+.filtros{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:40vw;
+}
+
+.filtros-tipos{
+
+    display:flex;
+    flex-direction: column;
+
+    margin-bottom:30px;
+}
+
+.filtros-tipos>h3{
+
+    font-family: font2;
+    font-size:20px;
+
+    margin-bottom:20px;
+}
+
+.filtros-tipos>h6{
+
+    font-family:font2;
+    font-size:14px;
+
+    margin-bottom:10px;
+}
+
+.filtros-tipos>button{
+
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom:10px;
+    gap:10px;
+}
+
+.caixa-click{
+
+    width:20px;
+    height:20px;
+
+    border:1px #000 solid;
+    border-radius:3px;
+}
+
+.filtro-preco{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.filtro-preco>h6{
+
+    margin-bottom:20px;
+
+    font-family:font2;
+    font-size:12px;
+}
+
+.container-preco{
+
+    display:flex;
+    flex-direction: row;
+}
+
+.container-preco>div{
+
+    margin-left:10px;
+
+    height:10vh;
+}
+.container-preco p{
+
+    font-family:font1;
+    font-size:12px;
+
+    margin-bottom:10px;
+}
+
+.container-preco input{
+
+    width:6vw;
+    height:35%;
+
+    border-radius:8px;
+    border:1px solid rgba(0,0,0,0.3);
+}
+
+.rodas{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap:30px;
+
+    width:150vw;
+}
+
+.produto-unico{
+
+    border:1px solid #8080804f;
+    border-radius:20px;
+
+    margin-bottom:50px;
+    padding:10px;
+}
+
+.produto-unico>img{
+
+    max-width:350px;
+    min-width:200px;
+    width:350px;
+}
+
+.produto-inf{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top:4px solid #000 !important;
+}
+
+.avaliacao{
+
+    height:4vh;
+    width:7vw;
+
+    background: url(../assets/images/avaliacao-img.png) no-repeat 0 0;
+    background-size:100%;
+    background-position-y: -40%;
+}
+
+.roda-nome{
+
+    font-family: font1;
+    font-size:14px;
+
+    margin-bottom:20px;
+}
+
+.valor-original{
+
+    font-family: font1;
+    font-size:14px;
+    text-decoration:line-through;
+
+    margin-right:20px;
+}
+
+.valor-desconto{
+
+    font-family:font2;
+    font-size:20px;
+}
+
+#preco-roda{
+
+    margin-bottom:5px;
+}
+
+.parcelas{
+
+    font-family:font1;
+    font-size:12px;
+}
+
+.parcelas>span{
+
+    font-family:font2;
+}
+
+.produto-unico:hover{
+
+    color:rgba(0,0,0,0.5);
+    transition:0.4s;
+}
+
+.valor-desconto,.parcelas{
+
+    color:#000 !important;
+}
+
+/* Término da aba de produtos */
+
+.rodape{
+
+    background-color:rgba(0,0,0,0.1);
+}
+
+.rodape svg{
+
+    width:50px;
+    height:50px;
+}
+
+.rodape h4{
+
+    font-family:font2;
+    font-size:20px;
+}
+
+.rodape-conteudo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:100vw;
+
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+    margin-bottom: 20px;
+    padding:30px 20px;
+}
+
+.rodape-conteudo h4{
+
+    margin-bottom:30px;
+}
+
+.rodape-conteudo a,.rodape-conteudo p{
+
+    font-family:font1;
+    font-size:14px;
+
+    margin-bottom:20px;
+}
+
+.departamentos, .contatos,.redes-sociais{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.contatos>div{
+
+    display: flex;
+    flex-direction: row;
+
+    gap:10px;
+}
+
+.contatos svg{
+
+    width:17px;
+}
+
+#row-redes{
+
+    display:flex;
+    flex-direction: row;
+}
+
+#row-redes a{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #000;
+    
+
+    border-radius:100%;
+    
+    height:5%;
+    width:20%;
+
+    margin-left:20px;
+}
+
+#row-redes svg{
+
+    fill: #fff;
+
+    width:18px;
+}
+
+#facebook svg{
+
+    width:14px;
+}
+
+#row-redes a:hover{
+
+    background-color: #fff;
+    color:rgba(0,0,0,0.5);
+
+    transition:0.4s;
+}
+
+.avaliacao-loja{
+
+    margin-bottom:20px;
+
+    padding:20px;
+}
+
+.licencas{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #000;
+
+    color:#fff;
+    font-family: font1;
+    font-size:12px;
+
+    width:100%;
+    height:8vh;
+
+    padding:10px;
+}
+
+@media(max-width:1920px){
+
+    #carrinho{
+
+        display: none;
+    }
+
+    #pesquisa2{
+
+        display:none;
+    }
+
+    #menu02{
+
+        display:none;
+    }
+
+    #botao-tela-menor{
+
+        display:none;
+    }
+
+    /* Término do cabeçalho */
+
+    .selecao{
+
+        height:5vh;
+    }
+
+    .filtrar-button{
+
+        display:none;
+    }
+
+    #acesorios-rodas-layout-768px{
+
+        display:none;
+    }
+}
+
+@media(max-width:992px){
+
+    #menu02{
+
+        display:flex;
+
+        margin-bottom:20px;
+        padding:10px 20px;
+    }
+
+    #menu02>button,#menu02>a{
+
+        display:flex;
+    }
+
+    .menu>button,.menu>a{
+
+        display:none;
+    }
+
+    /* Término do cabeçalho */
+}
+
+@media (max-width:768px){
+
+    #menu02{
+
+        display:none;
+    }
+
+    #botao-tela-menor{
+
+        display:block;
+    }
+
+    #botao-tela-menor>svg{
+
+        width:25px;
+    }
+
+    #logo>img{
+
+        width:180px;
+    }
+    .contatos-header>a{
+
+        display:none;
+    }
+
+    #carrinho{
+
+         display:block;
+         width:6vw;
+    }
+
+    #carrinho>svg{
+
+        width:40px;
+    }
+
+    #pesquisa1 {
+
+        display:none;
+    }
+
+    #centralizar{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        width:100vw;
+        padding:0px 20px;
+    }
+
+    #pesquisa2{
+
+        display:flex;
+
+        max-width:100%;
+        width:100vw;
+        height:6vh;
+    }
+
+    .pesquisa>input{
+        font-size:16px;
+    }
+
+    .menu{
+
+        display:none;
+    }
+    
+    .informacoes a>img{
+
+        width:auto;
+        height:auto;
+        max-height: 80px;
+        max-width: 80%;
+    }
+
+    .menu-categorias{
+
+        display:none;
+    }
+
+    /* Término do cabeçalho */
+
+    .selecao{
+
+        max-width:40vw;
+        min-width:20vw;
+        width:30vw;
+        height:8vh;
+    }
+    #acesorios-rodas-layout-PC{
+
+        display:none;
+    }
+
+    #acesorios-rodas-layout-768px{
+
+        display:block;
+    }
+
+    #acesorios-rodas-layout-768px{
+
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+
+        width:100vw;
+
+        margin-top:20px;
+    }
+
+    .filtros{
+
+        display:none;
+    }
+
+    .filtrar-button{
+
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width:40vw;
+        min-width:20vw;
+        width:30vw;
+        height:8vh;
+        
+        padding:10px;
+
+        border:1px solid rgba(0,0,0,0.3) !important;
+        border-radius:10px;
+
+        font-family:font2;
+        font-size:14px;
+        font-weight:700;
+    }
+
+    .filtrar-button>svg{
+
+        width:18px;
+    }
+
+    .rodas{
+
+        justify-content: center;
+    }
+
+    /* Término da aba de produtos */
+
+    .rodape-conteudo{
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #row-redes a{
+
+        height:5%;
+        width:10%;
+    }
+
+    #nuvemshop{
+
+        display:none;
+    }
+}
+

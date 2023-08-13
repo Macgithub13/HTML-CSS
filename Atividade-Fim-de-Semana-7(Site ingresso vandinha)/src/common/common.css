@@ -1,0 +1,23 @@
+*{
+
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+div{
+
+    display:block;
+}
+
+a{
+
+    cursor:pointer;
+}
+
+button{
+
+    cursor:pointer;
+    background:none;
+    border:none;
+}

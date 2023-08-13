@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+div{
+
+    display: block;
+}
+
+a{
+
+    font-family: font1;
+
+    cursor:pointer;
+}
+
+button{
+
+    font-family: font1;
+
+    cursor:pointer;
+    background: none;
+    border:none !important;
+}
+
+select{
+
+    cursor:pointer;
+}
